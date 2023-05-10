@@ -7,3 +7,7 @@ export const nid = (s = 21) => {
   while (s--) id += a[bytes[s] & 63];
   return id;
 };
+
+
+const res = nid();
+console.log(res)
